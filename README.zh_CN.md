@@ -22,7 +22,7 @@
 ## 安装 & 升级
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
+bash <(curl -Ls https://git.zsblog.eu.org/https://raw.githubusercontent.com/youtubexiaoli/3x-ui-fixed/master/install.sh)
 ```
 
 ## 安装旧版本 (我们不建议)
@@ -30,7 +30,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.
 要安装您想要的版本，请使用以下安装命令。例如，ver `v1.7.9`:
 
 ```
-VERSION=v1.7.9 && <(curl -Ls "https://raw.githubusercontent.com/mhsanaei/3x-ui/$VERSION/install.sh") $VERSION
+VERSION=v1.7.9 && <(curl -Ls "https://git.zsblog.eu.org/https://raw.githubusercontent.com/youtubexiaoli/3x-ui-fixed/$VERSION/install.sh") $VERSION
 ```
 
 ### SSL证书
