@@ -13,11 +13,7 @@
 
 **如果此项目对你有用，请给一个**:star2:
 
-<p align="left">
-  <a href="https://buymeacoffee.com/mhsanaei" target="_blank">
-    <img src="./media/buymeacoffe.png" alt="Image">
-  </a>
-</p>
+
 
 - USDT (TRC20): `TXncxkvhkDWGts487Pjqq1qT9JmwRUz8CC`
 - MATIC (polygon): `0x41C9548675D044c6Bfb425786C765bc37427256A`
