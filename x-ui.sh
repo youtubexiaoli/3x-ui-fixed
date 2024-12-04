@@ -1632,61 +1632,61 @@ show_usage() {
     echo "x-ui control menu usages: "
     echo "------------------------------------------"
     echo -e "SUBCOMMANDS:"
-    echo -e "x-ui              - Admin Management Script"
-    echo -e "x-ui start        - Start"
-    echo -e "x-ui stop         - Stop"
-    echo -e "x-ui restart      - Restart"
-    echo -e "x-ui status       - Current Status"
-    echo -e "x-ui settings     - Current Settings"
-    echo -e "x-ui enable       - Enable Autostart on OS Startup"
-    echo -e "x-ui disable      - Disable Autostart on OS Startup"
-    echo -e "x-ui log          - Check logs"
+    echo -e "x-ui              - 显示管理菜单"
+    echo -e "x-ui start        - 启动 x-ui 面板"
+    echo -e "x-ui stop         - 停止 x-ui 面板"
+    echo -e "x-ui restart      - 重启 x-ui 面板"
+    echo -e "x-ui status       - 查看 x-ui 状态"
+    echo -e "x-ui settings     - 当前 x-ui 设置"
+    echo -e "x-ui enable       - 设置 x-ui 开机自启"
+    echo -e "x-ui disable      - 取消 x-ui 开机自启"
+    echo -e "x-ui log          - 查看 x-ui 日志"
     echo -e "x-ui banlog       - Check Fail2ban ban logs"
-    echo -e "x-ui update       - Update"
+    echo -e "x-ui update       - 更新 x-ui 面板"
     echo -e "x-ui custom       - custom version"
-    echo -e "x-ui install      - Install"
-    echo -e "x-ui uninstall    - Uninstall"
+    echo -e "x-ui install      - 安装 x-ui 面板"
+    echo -e "x-ui uninstall    - 卸载 x-ui 面板"
     echo "------------------------------------------"
 }
 
 show_menu() {
     echo -e "
-  ${green}3X-UI Panel Management Script${plain}
-  ${green}0.${plain} Exit Script
+  ${green}Youtube xiaoli 面板管理脚本${plain}
+  ${green}0.${plain} 退出脚本
 ————————————————
-  ${green}1.${plain} Install
-  ${green}2.${plain} Update
-  ${green}3.${plain} Update Menu
-  ${green}4.${plain} Legacy Version
-  ${green}5.${plain} Uninstall
+  ${green}1.${plain} 安装 x-ui
+  ${green}2.${plain} 更新 x-ui
+  ${green}3.${plain} 更新菜单
+  ${green}4.${plain} 旧版本
+  ${green}5.${plain} 卸载 x-ui
 ————————————————
-  ${green}6.${plain} Reset Username & Password & Secret Token
+  ${green}6.${plain} 重置用户名密码
   ${green}7.${plain} Reset Web Base Path
-  ${green}8.${plain} Reset Settings
-  ${green}9.${plain} Change Port
-  ${green}10.${plain} View Current Settings
+  ${green}8.${plain} 重置面板设置
+  ${green}9.${plain} 设置面板端口
+  ${green}10.${plain} 查看当前面板设置
 ————————————————
-  ${green}11.${plain} Start
-  ${green}12.${plain} Stop
-  ${green}13.${plain} Restart
-  ${green}14.${plain} Check Status
-  ${green}15.${plain} Logs Management
+  ${green}11.${plain} 启动 x-ui
+  ${green}12.${plain} 停止 x-ui
+  ${green}13.${plain} 重启 x-ui
+  ${green}14.${plain} 查看 x-ui 状态
+  ${green}15.${plain} 查看 x-ui 日志
 ————————————————
-  ${green}16.${plain} Enable Autostart
-  ${green}17.${plain} Disable Autostart
+  ${green}16.${plain} 设置 x-ui 开机自启
+  ${green}17.${plain} 取消 x-ui 开机自启
 ————————————————
-  ${green}18.${plain} SSL Certificate Management
-  ${green}19.${plain} Cloudflare SSL Certificate
-  ${green}20.${plain} IP Limit Management
-  ${green}21.${plain} Firewall Management
-  ${green}22.${plain} SSH Port Forwarding Management
+  ${green}18.${plain} 一键申请SSL证书
+  ${green}19.${plain} Cloudflare SSL 证书
+  ${green}20.${plain} IP限制管理
+  ${green}21.${plain} 防火墙管理
+  ${green}22.${plain} SSH端口转发管理
 ————————————————
-  ${green}23.${plain} Enable BBR 
-  ${green}24.${plain} Update Geo Files
-  ${green}25.${plain} Speedtest by Ookla
+  ${green}23.${plain} 一键安装 bbr 
+  ${green}24.${plain} 更新 Geo Files
+  ${green}25.${plain} Ookla 速度测试
 "
     show_status
-    echo && read -p "Please enter your selection [0-25]: " num
+    echo && read -p "请输入选择 [0-25]: " num
 
     case "${num}" in
     0)
