@@ -22,7 +22,7 @@
 ## 安装 & 升级
 
 ```
-bash <(curl -Ls https://git.zsblog.eu.org/https://raw.githubusercontent.com/youtubexiaoli/3x-ui-fixed/blob/main/install.sh)
+bash <(curl -Ls https://git.zsblog.eu.org/https://raw.githubusercontent.com/youtubexiaoli/3x-ui-fixed/main/install.sh)
 ```
 
 ## 安装旧版本 (我们不建议)
